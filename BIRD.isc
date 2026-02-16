@@ -1,0 +1,84 @@
+// IVAO IvAc3 (Aurora) Sectorfile BIRD & BGGL
+
+// "This software is published under the GNU GPL Licence a copy of which must always accompany this file"
+// "This Sectorfile must always acompanied by the History file"
+// "copyright IVAO - INTERNATIONAL VIRTUAL AVIATION ORGANISATION"
+
+[INFO]
+N063.59.06.000
+W022.36.22.000
+60
+26
+-14
+Iceland\OTHER;Iceland\BGGL;Iceland\EKVG;Iceland\NAVAIDS;Iceland\SID;Iceland\STAR;Iceland\GEO;Iceland\FCL;Iceland;
+[ATC]
+F;bird.atc
+[Airport]
+F;biap.ap
+[Runway]
+F;birw.rw
+[FIXES]
+F;bifix.fix
+F;bgfix.fix
+[NDB]
+F;bindb.ndb
+[VOR]
+F;bivor.vor
+[HIGH AIRWAY]
+F;biawhigh.awh
+F;bgawhigh.awh
+[LOW AIRWAY]
+F;biawlow.awl
+F;bgawlow.awl
+[ARTCC]
+F;biacc.acc
+[ARTCC HIGH]
+F;bihacc.acc
+F;bghacc.acc
+[ARTCC LOW]
+F;bilacc.acc
+F;bglacc.acc
+[GEO]
+F;bigeo.geo
+F;bieg.geo
+F;biar.geo
+F;birk.geo
+F;bikf.geo
+F;bims.geo
+F;biss.geo
+F;bivm.geo
+F;ekvg.geo
+F;ekfa.geo
+F;ekvg_coast.geo
+F;prohibited_areas.geo
+F;restricted_areas.geo
+F;danger_areas.geo
+F;bgbw.geo
+F;bggh.geo
+F;bgsf.geo
+F;bgjn.geo
+F;bgpt.geo
+F;bgmq.geo
+F;bgss.geo
+F;bgaa.geo
+[FILLCOLOR]
+F;bixx.fcl
+F;bieg.fcl
+F;biar.fcl
+F;birk.fcl
+F;bikf.fcl
+F;ekvg.fcl
+F;bims.fcl
+F;biss.fcl
+F;bivm.fcl
+F;bgbw.fcl
+F;bggh.fcl
+F;bgsf.fcl
+F;bgjn.fcl
+F;bgpt.fcl
+F;bgmq.fcl
+F;bgss.fcl
+F;bgaa.fcl
+F;birdatconline.fcl
+[DEFINE]
+F;Iceland/OTHER/colors.def

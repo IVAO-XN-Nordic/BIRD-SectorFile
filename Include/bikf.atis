@@ -1,0 +1,1 @@
+{ "region" : "default", "structure" : "[STATION_NAME] information [ATIS_LETTER].. Issued at [ATIS_TIME].. Runway [DEP] in use.. Expect approach runway [ARR].. Transition level [TL]..   [METAR].. Bird activity low.. Advice on initial contact you have information [ATIS_LETTER].." }
