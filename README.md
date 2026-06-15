@@ -1,6 +1,6 @@
 # BIRD Sector File for IVAO Aurora
 
-Welcome to the official repository for the BIRD FIR (Iceland, Greenland and Farao Islands Flight Information Region) sector file, designed specifically for IVAO's ATC radar client **Aurora**. This repository ensures up-to-date and accurate sector data for air traffic controllers operating within the BIRD airspace.
+Welcome to the official repository for the BIRD FIR (Iceland, Greenland and Farao Islands Flight Information Region) sectorfile, designed specifically for IVAO's ATC radar client **Aurora**. This repository ensures up-to-date and accurate sector data for air traffic controllers operating within the BIRD airspace.
 
 ---
 
@@ -20,17 +20,19 @@ Welcome to the official repository for the BIRD FIR (Iceland, Greenland and Fara
 - **Aurora ATC Client**: Make sure you have the latest version of IVAO's Aurora ATC radar client installed.
 
 ### Installation
-<ins>**If you want a complete and ensured fully functional sectorfile, *only* update your sectorfile within aurora itself. Using the installation method below might update to an in-progress sectorfile.**</ins>
+> [!NOTE] 
+> If you want a complete and ensured fully functional sectorfile, *only* update your sectorfile within Aurora itself. Using the installation method below might update to an in-progress sectorfile.
 
 
 1. Clone or download this repository to your computer:
    ```bash
-   git clone https://github.com/yourusername/BIRD-sector-file.git
+   git clone https://github.com/IVAO-XN-Nordic/BIRD-SectorFile.git
    ```
 2. Place the downloaded files into the appropriate directory for Aurora.
 3. Launch Aurora and load the BIRD sector file.
 
-> **Note**: These installation steps are only applicable to pre-releases of the sector file. Pre-releases may contain incomplete features and should not be used during training, events, or exams. All full releases are to be downloaded directly via the Aurora client.
+> [!WARNING]
+> These installation steps are only applicable to **pre-releases** of the sector file. Pre-releases may contain incomplete features and should not be used during training, events, or exams. All full releases are to be downloaded directly via the Aurora client.
 
 ---
 
@@ -52,4 +54,4 @@ If you encounter any issues or have suggestions for improvement, please open an 
 ---
 
 **Contact**
-For further questions, feel free to reach out via the repository's issue tracker, email the BIRD FIR Chef or contact us via the XN Discord server
+For further questions, feel free to reach out via the repository's issue tracker, email the [BIRD FIR Chief](mailto:bird-ch@ivao.aero) or contact us via the [XN Discord server](https://discord.gg/3Nuc3R7VqF)
