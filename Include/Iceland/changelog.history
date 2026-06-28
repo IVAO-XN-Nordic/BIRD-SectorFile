@@ -1,163 +1,30 @@
-////////////////////////////////////////////////////////////////////////////////////////////
-// BIRD Sector History File
-// AIRAC: 2007* compatible
-//
-// Notes:
-// At this state not everything is implemented and the Sector is still considered WIP
-// The Sector is AIRAC compatible but be advised that there can be Errors
-// Please get in touch with XN Divison by Discord or Forums if you have
-// Questions, found Errors or any other related Information regarding that Sectorfile.
-//
-// 
-// "This software is published under the GNU GPL Licence a copy of which must always accompany this file"
-// "This Sectorfile must always acompanied by the History file"
-// "copyright IVAO - INTERNATIONAL VIRTUAL AVIATION ORGANISATION"
-//
-//
-// Special thanks to Matthew Girvan for providing me with every 
-// Information we could get and find to create this Sector.
-////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////
+//                                  //
+//         AIRAC 2606 Update        //
+//                                  //
+//////////////////////////////////////
 
-[[Discover Greenland Update]]
-Small Update for the Event :)
+[] - Nuuk Update 
+- The (not so) long awaited BGGH (or Nuuk) update is finally here, containing semi-redrawn aprons, new runway, SID, and ILS procedures!
+- Gates and FIXes are also included.
+- Airways should now also be up to date, I love when IAB misses fixes
+- DA PA RA Update
+- Military Areas Updated
 
-[] Overall
-- Added Predefined Positions/Frequencys for:
--- Airport | Position IVAO | Frequency | Station Name
--- BGBW | BGBW_I_TWR | 119.10 | Narsarsuaq AFIS
--- BGGH | BGGH_I_TWR | 119.10 | Nuuk AFIS
--- BGJN | BGJN_I_TWR | 119.10 | Ilulissat AFIS
--- BGPT | BGPT_I_TWR | 118.10 | Paamiut AFIS
--- BGMQ | BGMQ_I_TWR | 118.50 | Maniitsoq AFIS
--- BGSS | BGSS_I_TWR | 118.10 | Sisimiut AFIS
--- BGAA | BGAA_I_TWR | 118.50 | Aasiaat AFIS
--- BGSF |  BGSF_TWR  | 118.30 | Sondrestrom Tower
--- BGSF |  BGSF_APP  | 126.20 | Sondrestrom Approach
--- BGGL |  BGGL_CTR  | 121.30 | Nuuk Information
--- BGGL | BGGL_S_CTR | 121.30 | Nuuk Information (Sector South)
--- BGGL | BGGL_N_CTR | 120.30 | Nuuk Information (Sector North)
+[] - Iceland Update
+- Fixed Folder Structure
+- Added BIAR North Apron
+- Updated BIAR Procedures
+- Updated BIKF Procedures
+- Updated BIKF North Apron Layout
+- Added ALT & IAS Restrictions to BIKF & BIAR Procedures Fixed BIAR_TWR not being recognized inside Aurora
+- Removed BIAR_APP as it is not in the FRA
+- Updated BGSF Procedures and ground layout
+- Updated BIKF Route 6 to indicate mandatory reporting points
 
-- (Note: Due to the way IVAO handles Voice Communication this is highly
-suitable for Errors when multiple Controllers are connected due to "close" proximity
-of stations with same Frequency.)
-
-[] BGBW - Narsarsuaq
-- Added GEO and FCL
-- Added Narsarsuaq TIZ (12nm Circle)
-
-[] BGGH - Nuuk
-- Added GEO and FCL
-- Added Nuuk TIZ (20nm Circle)
-
-[] BGJN - Ilulissat
-- Added GEO and FCL (thanks to Matthew)
-- Added Ilulissat TIZ (20nm Circle)
-
-[] BGPT - Paamiut
-- Added GEO and FCL
-- Added Paamlut TIZ (20nm Circle)
-
-[] BGMQ - Maniitsoq
-- Added GEO and FCL
-- Added Maniitsoq TIZ (20nm Circle)
-
-[] BGSS - Sisimiut
-- Added GEO and FCL
-- Added Sisimiut TIZ (20nm Circle)
-
-[] BGAA - Aasiaat
-- Added GEO and FCL
-- Added Aasiaat TIZ (20nm Circle)
-
-[] BGSF - Kangerlussuaq
-- Added GEO and FCL
-- Added Taxiway Labels
-- Added VFR Reporting Points
-- Added LOC/NDB Approaches
-- Added GA Procedure
-- Added SF Holding Pattern
-
-[] BIAR - Akureyri
-- Adjusted All Departure Routes to be drawn accordingly
-- Added AKI 2A/2B, AR-1A departure Routes
-- [RWY19] Adjusted RNAV - now named RNP Y according to Charts
-- [RWY19] RNP X added Line from FAF to Treshhold
-- [STARs] Renamed "STARs (ILS)" to "STARs" since they Serves ILS and RNP Y
-- [STARs] Added STAR Designators at first Waypoint
-- [ATC] Changed ATC Positions in Sectorfile according to local procedures
--- [ATC] Disabled predefined BIAR_TWR Position
--- [ATC] Changed predefined BIAR_APP Frequency to 18.2
--- Need to talk to ATC Department how to handle this Station
-
-Please get familiar with Akureyri Procedures since TWR/APP/AFIS is one Frequency/Position IRL.
-Time | Position (Callsign):
-0700-2300 (lcl) | TWR/APP (Akureyri Tower)
-2300-0700 (lcl) | AFIS (Akureyri Radio)
-
-[Future]
-Changing the STAR Handling into an Overview Button and 
-Single Arrival Routes accordingly for the possibility of better Text Communication.
-
-[NOTE]
-Due to overall Information slowly added into the Sectorfile please
-get familiar with all the Filter Options available.
-For further Questions feel free to contact me.
-
-///// 23. July 2020 /////
-[] Overall
-- Restarted the whole Sectorfile
--- Technically everything is new or changed
-- [ADDED] Changelog.History
-- [ADDED] ATC Online Color File (Test Build)
-- [ADDED] BIEG and BIVM with predefined Frequencys
-- [EDIT] ATC File: Transferlist Restrictions on a Soft Level (Test Build)
-- Redone the whole Sectorfile Structure to support future Updates
-- [ADDED] "colors.def"
-
-[] Faxi TMA
-- [ADDED] BISS GEO/FCL
-- [ADDED] BIMS GEO/FCL
-- [ADDED] ATZ around BIMS (LS)
-- [ADDED] SIDs and STARs for BIKF/BIRK
-- Redone BIKF and BIRK CTR Lower Sector to look smoother curves
-- 60nm Area around BIKF/BIRK in a slightly different color as shown at tern.systems
--- probably will get rid of it as soon as transparency works and integrate it into ATC Online FCL
-
-[] EKVG - Vagar
-- Overhauled EKVG GEO
-- [ADDED] SIDs and STARs
-- [ADDED] TAXIWAY Labels
-- [ADDED] ILS/LOC and RNAV Approaches
-- [ADDED] RNAV Transitions
--- NAVAID Updated for EKVG
-- [ADDED] Helipads in AP file around Vagar
-- [ADDED] EKFA GEO and FCL
-
-[] BIRK - Reykjavík
-- Overhauled BIRK GEO
-- [ADDED] SIDs and STARs
-- [ADDED] TAXIWAY Labels
-- [ADDED] ILS and RNAV Approaches
-- Fixed a GEO Error around BIRK so the Field is not half submarine anymore
-
-[] BIEG - Egilsstaðir
-- [ADDED] SIDs and STARs
-- [ADDED] TAXIWAY Labels
-- [ADDED] ILS and RNAV Approaches
-
-[] BIKF - Keflavik
-- Overhauled BIKF
-- [ADDED] SIDs and STARs
-- [ADDED] TAXIWAY Labels
-- [ADDED] ILS and RNAV Approaches
-- [EDIT] Stands 101 to 111 adjusted
-
-[] BIAR - Akureyri
-- [ADDED] SIDs and STARs
-- [ADDED] TAXIWAY Labels
-- [ADDED] ILS and RNAV Approaches
-
-
-[] BIVM - VESTMANNAEYJAR
-- [ADDED] EL 1W SID
-- [ADDED] NDB and RNAV Approaches
+[] - Other Updates
+- Fixed 'install' link
+- Replaced notes with github flavoured MD alerts
+- Fixed spelling
+- Added link to XN Discord
+- Added mailto link for the BIRD FIR Chief
