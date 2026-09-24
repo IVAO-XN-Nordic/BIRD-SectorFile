@@ -20,6 +20,7 @@ F;birw.rw
 [FIXES]
 F;bifix.fix
 F;bgfix.fix
+F;ekfix.fix
 [NDB]
 F;bindb.ndb
 [VOR]
@@ -44,6 +45,8 @@ F;bieg.geo
 F;biar.geo
 F;birk.geo
 F;bikf.geo
+F;bikf.txc
+F;bikf.txo
 F;bims.geo
 F;biss.geo
 F;bivm.geo
