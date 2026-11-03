@@ -1,30 +1,11 @@
 //////////////////////////////////////
 //                                  //
-//         AIRAC 2606 Update        //
+//         AIRAC 2610 Update        //
 //                                  //
 //////////////////////////////////////
 
-[] - Nuuk Update 
-- The (not so) long awaited BGGH (or Nuuk) update is finally here, containing semi-redrawn aprons, new runway, SID, and ILS procedures!
-- Gates and FIXes are also included.
-- Airways should now also be up to date, I love when IAB misses fixes
-- DA PA RA Update
-- Military Areas Updated
+[] - Keyvan Data Update & Frequencies!
+- All fix and procedure data are now from the navdata IVAO receives from Keyvan Aviation! P.S This includes BGGL FIR and EKVG FIZ :3
+- ATC Frequencies are now up to date.
 
-[] - Iceland Update
-- Fixed Folder Structure
-- Added BIAR North Apron
-- Updated BIAR Procedures
-- Updated BIKF Procedures
-- Updated BIKF North Apron Layout
-- Added ALT & IAS Restrictions to BIKF & BIAR Procedures Fixed BIAR_TWR not being recognized inside Aurora
-- Removed BIAR_APP as it is not in the FRA
-- Updated BGSF Procedures and ground layout
-- Updated BIKF Route 6 to indicate mandatory reporting points
-
-[] - Other Updates
-- Fixed 'install' link
-- Replaced notes with github flavoured MD alerts
-- Fixed spelling
-- Added link to XN Discord
-- Added mailto link for the BIRD FIR Chief
+- I believe that is all, have a nice AIRAC cycle!
